@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.title-wrapper{
+    text-align:center;
+}
+body h1{
+    display:inline-block;
+    font-size:50px;
+    margin:0 0 20px 30px;
+}
+body h2{
+    display:inline-block;
+    font-size:40px;
+    margin:0 0 0 30px;
+}
+.button{
+    width:300px;
+    height:30px;
+    font-size:50px;
+    background-color:gray;
+    text-align:center;
+    margin:0 0 0 10%;
+}
+body ul{
+    list-style:none;
+}
+ul img{
+    height:250px;
+    margin:0;
+}
+body li{
+    width:190px;
+    height:250px;
+    margin:0 -20px 0 -10px;
+}
+.flex{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.restart{
+
+}
+.card{
+    display:none;
+}
+.anime{
+    display:block;
+    transition:all 0.5S;
+}
+.player-wrap{
+    width:90vw;
+    display:flex;
+    justify-content:space-around;
+}
+
+.player1-wrap{
+    color:blue;
+}
+.player2-wrap{
+    color:red;
+}
+.player3-wrap{
+    color:green;
+}
+.player4-wrap{
+    color:#fcc800
+}
+
+.player1-turn{
+    width:360px;
+    height:70px;
+    color:white;
+    background-color:blue;
+
+}
+
+.player2-turn{
+    width:360px;
+    height:70px;
+    color:white;
+    background-color:red;
+}
+.player3-turn{
+    width:360px;
+    height:70px;
+    color:white;
+    background-color:green;
+}
+.player4-turn{
+    width:360px;
+    height:70px;
+    color:white;
+    background-color:#fcc800;
+}
+
+.player-wrap span{
+    font-size:20px;
+}
+

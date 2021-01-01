@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body h1{
+    font-size:80px;
+    text-align:center;
+    margin:0;
+}
+
+body div{
+    text-align:center;
+}
+
+.player1{
+    color:blue;
+}
+.player2{
+    color:red;
+}
+.player3{
+    color:green;
+}
+.player4{
+    color:#fcc800;
+}
